@@ -32,7 +32,7 @@ jobs:
 
       - run: convert cocoa.svg -define icon:auto-resize=48,32,24,16 release/cocoa.ico
 
-      - uses: actions/upload-artifact@v4.3.3
+      - uses: actions/upload-artifact@v4.3.4
         with:
           name: release
           path: release
