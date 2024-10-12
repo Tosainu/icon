@@ -22,7 +22,7 @@ jobs:
 
       - run: mkdir -p release
 
-      - run: inkscape -l release/cocoa.svg cocoa.svg
+      - run: inkscape -l -o release/cocoa.svg cocoa.svg
 
       - run: |
           for size in {64,128,192,256,384,512}; do
